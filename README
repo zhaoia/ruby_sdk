@@ -1,0 +1,29 @@
+== 欢迎使用找呀搜索及API Ruby 演示程序
+
+
+== Getting Started
+
+  get_sign 得到验证信息sign，会随查询URL一起发送到服务端，服务端验证正确吼返回查询结果.
+  sign 是由appkey,keyword,page,per_page,sort组合，计算出MD5摘要，然后转换成大写.
+  get_product_lists 是搜索关键字得到的结果
+  get_product_info 是某一个商品的具体信息
+  get_related_product_lists 是获取某件商品的相关商品
+  get_context_product_lists 是获取一个URL定位的商品或者一段类似标题的字符串的相关信息
+
+  具体详情试用请访问: http://www.zhaoia.com/test_api
+
+
+== Zhaoia API 使用
+
+  写邮件到 api@hellom2.com 以获取appkey和secret_code
+
+
+Zhaoia API 详细使用说明请参考:
+http://www.zhaoia.com/api
+
+== 其它
+
+本程序仅供Zhaoia API 演示和参考使用。
+版权所有 麦图科技 2010
+
+
